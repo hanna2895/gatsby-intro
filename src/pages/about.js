@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../components/header';
+import Layout from '../components/layout';
+
 
 export default () => (
-    <div style={{ color: 'teal' }}>
-        <Header headerText="About Gatsby" />
-        <Header headerText="It's pretty cool"/>
-        <p>Such wow. Very React.</p>
-    </div>
+    <Layout>
+        <h1>About Me</h1>
+        <p>I'm good enough, I'm ssmart enough, and gosh darn it, people like me!</p>
+    </Layout>
 )

@@ -1,10 +1,25 @@
-import React from 'react';
-import Layout from '../components/layout';
+import React from "react"
+import { graphql } from "gatsby"
+import Layout from "../components/layout"
 
-
-export default () => (
-    <Layout>
-        <h1>About Me</h1>
-        <p>I'm good enough, I'm ssmart enough, and gosh darn it, people like me!</p>
-    </Layout>
+export default ({ data }) => (
+  <Layout>
+    <h1>About {data.site.siteMetadata.title}</h1>
+    <p>
+      We're the only site running on your computer dedicated to showing the best
+      photos and videos of pandas eating lots of food.
+    </p>
+  </Layout>
 )
+
+// this is a page query.
+// page queries live outside the component definition and at the bottom of a file by convention
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`

@@ -1,6 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `Pandas Eating Lots`,
+        title: `Hannah Werman`,
+        description: `Front End Developer | Blockchain Enthusiast | Nomad`,
     },
     plugins: [
         {
@@ -10,7 +11,7 @@ module.exports = {
                 short_name: "GatsbyJS",
                 start_url: '/',
                 background_color: '#6b37bf',
-                theme_color: "6b37bf",
+                theme_color: "#6b37bf",
                 display: 'minimal-ui',
                 // icon: 'src/images/icon.png',
             }

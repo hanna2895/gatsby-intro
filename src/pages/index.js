@@ -9,14 +9,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        <h1
-          className={css`
-            display: inline-block;
-            border-bottom: 1px solid;
-          `}
-        >
-          Amazing Pandas Eating Things
-        </h1>
+
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>

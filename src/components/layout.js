@@ -11,7 +11,8 @@ export default ({ children }) => (
       query {
         site {
           siteMetadata {
-            title
+            title,
+            description,
           }
         }
       }
@@ -28,24 +29,30 @@ export default ({ children }) => (
       >
         <Helmet>
             <meta charSet="utf-8" />
-            <title>My Blog</title>
+            <title>Hannah Werman</title>
             <link rel="canonical" href="#"/>>
         </Helmet>
         <Link to={`/`}>
-          <h3
+          <h1
+
+          >
+            {data.site.siteMetadata.title}
+          </h1>
+          <h4
             className={css`
               margin-bottom: ${rhythm(2)};
               display: inline-block;
               font-style: normal;
             `}
           >
-            {data.site.siteMetadata.title}
-          </h3>
+            {data.site.siteMetadata.description}
+          </h4>
         </Link>
         <Link
           to={`/about/`}
           className={css`
             float: right;
+            margin-top: -${rhythm(1.7)}
           `}
         >
           About

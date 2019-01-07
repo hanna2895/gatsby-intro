@@ -17,7 +17,7 @@ export default ({ data }) => (
             </div>
 
 
-            <img src={hannaPhoto} className="animated fadeInUp delay-2s"/>
+            <img src={hannaPhoto} className="animated fadeInUp delay-1s"/>
 
         </div>
 

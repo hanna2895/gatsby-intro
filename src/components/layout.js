@@ -76,6 +76,13 @@ export default ({ children }) => (
           <Link to={`/portfolio/`}>
             Portfolio
           </Link>
+          <Link to={`/skills/`}
+            className={css`
+              margin-top: -${rhythm(1.7)}
+            `}
+          >
+            Skills
+          </Link>
           <Link to={'/contact'}
             className={css`
               margin-top: -${rhythm(1.7)}

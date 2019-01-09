@@ -2,13 +2,15 @@ import React from "react"
 import { css } from "react-emotion"
 import { StaticQuery, Link, graphql } from "gatsby"
 import { Helmet } from 'react-helmet'
+import MenuIcon from '@material-ui/icons/Menu';
 
 import { rhythm } from "../utils/typography"
+import SwipeableTemporaryDrawer from './menu';
 
 export default ({ children }) => (
   <div>
 
-  
+
   <StaticQuery
     query={graphql`
       query {
@@ -56,39 +58,8 @@ export default ({ children }) => (
           float: right;
           max-width: 35%;
         `}>
-          <Link
-            to={`/about/`}
-            className={css`
-              /* float: right; */
-              margin-top: -${rhythm(1.7)}
-            `}
-          >
-            About
-          </Link>
-          <Link to={`/blog`}
-            className={css`
-              /* float: right; */
-              margin-top: -${rhythm(1.7)}
-            `}
-          >
-            Blog
-          </Link>
-          <Link to={`/portfolio/`}>
-            Portfolio
-          </Link>
-          <Link to={`/skills/`}
-            className={css`
-              margin-top: -${rhythm(1.7)}
-            `}
-          >
-            Skills
-          </Link>
-          <Link to={'/contact'}
-            className={css`
-              margin-top: -${rhythm(1.7)}
-            `}>
-            Hire
-          </Link>
+          <SwipeableTemporaryDrawer/>
+
         </div>
 
         {children}

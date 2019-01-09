@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import './about/about.css';
 import hannaPhoto from '../../public/images/Hannah Photo 1 copy.jpg';
@@ -27,8 +27,8 @@ export default ({ data }) => (
 
         <p className="animated fadeInUp delay-3s">I want to help YOU grow your business and automate your life. Let’s talk about how we can work together.</p>
 
-        <a href="hire.html" className="btn btn-outline-dark animated fadeInUp delay-7s landing-link">Hire Me</a>
-        <a href="portfolio.html" className="btn btn-outline-dark animated fadeInUp delay-7s landing-link">View My Work </a>
+        <Link to={`/contact/`} className="btn btn-outline-dark animated fadeInUp delay-7s landing-link">Hire Me</Link>
+        <Link to={`/portfolio/`} className="btn btn-outline-dark animated fadeInUp delay-7s landing-link">View My Work </Link>
 
       </div>
 

@@ -36,10 +36,25 @@ export default ({ children }) => (
             <title>Hannah Werman</title>
             <link rel="canonical" href="#"/>>
         </Helmet>
-        <Link to={`/`}>
-          <h1
+        <div className={css`
+          float: right;
+          max-width: 35%;
+          margin-top: 1.5vh;
+        `}>
+          <SwipeableTemporaryDrawer/>
 
-          >
+        </div>
+        <Link to={`/`} className={css`
+          margin-right: 0;
+        `}>
+          <h1 className={css`
+            font-size: 2rem;
+            @media (max-width: 415px) {
+              font-size: 1.5rem;
+              width: 80%;
+              margin-top: 1vh;
+            }
+          `}>
             {data.site.siteMetadata.title}
           </h1>
           <h4
@@ -47,19 +62,23 @@ export default ({ children }) => (
               margin-bottom: ${rhythm(1.5)};
               display: inline-block;
               font-style: normal;
-              /* max-width: 55%; */
+              font-size: 1rem;
+              margin-top: 1rem;
+              @media (max-width: 415px) {
+                font-size: 11px;
+              }
             `}
           >
             {data.site.siteMetadata.description}
           </h4>
         </Link>
-        <div className={css`
+        {/* <div className={css`
           float: right;
           max-width: 35%;
         `}>
           <SwipeableTemporaryDrawer/>
 
-        </div>
+        </div> */}
 
         {children}
       </div>

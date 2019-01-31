@@ -9,6 +9,19 @@ img {
   margin-bottom: 3vh;
 }
 
+.home-img-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 415px) {
+  .home-img {
+    display: none;
+  }
+  .home-img-mobile {
+    display: block;
+  }
+}
+
 a {
   margin-right: 1.5vw;
 }

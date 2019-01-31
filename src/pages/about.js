@@ -16,6 +16,7 @@ export default ({ data }) => (
             <h2 className="animated fadeInUp delay-1s">My name is Hannah Werman.</h2>
             <h3 className="animated fadeInUp delay-2s">I’m a web developer and a travel & technology content writer.</h3>
 
+          <img src={hannaPhoto} className="home-img-mobile animated fadeInUp delay-2s" alt="Hanna standing in front of a door"/>
 
 
           <p className="animated fadeInUp delay-3s">I’m passionate about helping people leverage the power of technology to improve their day-to-day lives. <br /><br/> Whether that’s through cultivating an online presence for your small business, building an app to help you take your data on the road, automating your digital marketing processes, or writing technical content for your website or blog, I’m the right girl for the job.</p>

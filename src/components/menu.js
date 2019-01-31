@@ -6,6 +6,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 import ListItemText from '@material-ui/core/ListItemText';
 import { withStyles } from '@material-ui/core/Styles';
 import { Link } from 'gatsby';
+import { css } from 'react-emotion';
 
 const styles = {
     drawer: {
@@ -31,7 +32,12 @@ class SwipeableTemporaryDrawer extends React.Component {
 
         const sideList = (
             <div>
-                <List style={{ width: '20vw'}}>
+                <List className={css`
+                    width: 20vw;
+                    @media (max-width: 415px) {
+                        width: 32vw;
+                    }
+                `}>
                     <Link to={`/about/`} style={{ textDecoration: 'none', marginRight: '0'}}>
                         <ListItem button key={'about'}>
                             <ListItemText primary={"About"} />

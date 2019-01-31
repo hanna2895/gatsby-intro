@@ -2,7 +2,6 @@ import React from "react"
 import { css } from "react-emotion"
 import { StaticQuery, Link, graphql } from "gatsby"
 import { Helmet } from 'react-helmet'
-import MenuIcon from '@material-ui/icons/Menu';
 
 import { rhythm } from "../utils/typography"
 import SwipeableTemporaryDrawer from './menu';

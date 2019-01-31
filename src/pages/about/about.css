@@ -1,21 +1,21 @@
 img {
   max-width: 50%;
   height: 50vh;
+}
+
+.home-img {
+  float: right;
   border-radius: 10%;
   margin-bottom: 3vh;
-  /* margin-right: auto; */
 }
 
 a {
   margin-right: 1.5vw;
 }
 
-.heading-holder {
-  display: flex;
-}
-
 @media screen and (max-width: 680px) {
   .heading-holder {
+    display: flex;
     flex-direction: column;
     width: 100%;
   }

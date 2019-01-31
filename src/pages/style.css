@@ -50,9 +50,17 @@
 	/* margin-left: 0; */
 }
 
-/* .image-holder {
+.image-holder {
 	margin-left: 0;
-} */
+	float: left;
+	margin-right: 3vw;
+	display: flex;
+	flex-direction: column;
+}
+
+#myCanvas {
+	margin-bottom: 24vh;
+}
 
 .project {
 	margin-top: 5vh;
@@ -131,9 +139,14 @@ h4 {
 	}
 	.image-holder {
 		height: auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	.btn-outline-dark {
 		margin-top: 1vh;
+	}
+	#myCanvas {
+		margin-bottom: 1.08rem;
 	}
 }
 

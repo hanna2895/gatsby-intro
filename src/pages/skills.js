@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
 import { css } from "react-emotion"
 
 
@@ -69,14 +69,14 @@ export default () => (
 
                 <h4 id="action">See my work in action:</h4>
                 <ul class="link-list">
-                <li><a href="./content/hannah_werman_august_2018_resume.pdf" class="btn btn-outline-dark" target="_blank">Tech Resume</a></li>
-                <li><a href="./content/hannah_werman_august_2018_writing_resume.pdf" class="btn btn-outline-dark" target="_blank">Writing Resume</a></li>
-                <li><a href="https://www.linkedin.com/in/hannah-werman/" class="btn btn-outline-dark" target="_blank">LinkedIn</a></li>
-                <li><a href="https://github.com/hanna2895" class="btn btn-outline-dark" target="_blank">GitHub</a></li>
-                <li><a href="https://www.bububabkpacks.com" class="btn btn-outline-dark" target="_blank">Blog</a></li>
-                <li><a href="https://www.instagram.com/bubu_backpacks/" class="btn btn-outline-dark" target="_blank">Instagram</a></li>
-                <li><a href="https://twitter.com/bubu_backpacks" class="btn btn-outline-dark" target="_blank">Twitter</a></li>
-                <li><a href="https://www.pinterest.com/bubu_backpacks/boards/" class="btn btn-outline-dark" target="_blank">Pinterest</a></li>
+                <li><a href="./content/hannah_werman_august_2018_resume.pdf" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Tech Resume</a></li>
+                <li><a href="./content/hannah_werman_august_2018_writing_resume.pdf" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Writing Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/hannah-werman/" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://github.com/hanna2895" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.bububabkpacks.com" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                <li><a href="https://www.instagram.com/bubu_backpacks/" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://twitter.com/bubu_backpacks" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                <li><a href="https://www.pinterest.com/bubu_backpacks/boards/" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
 
 
                 </ul>

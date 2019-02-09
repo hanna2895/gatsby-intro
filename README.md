@@ -1,10 +1,11 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
+#Hello World!
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+My name is Hannah Werman, and I built this site with React, Gatsby, and GraphQL. 
 
-## Running in development
+###Coming Soon: 
+
+How-to post on how I built this blog. Let me know if there's anything specific you'd like to see! 
+
+###Running in Development: 
+
 `gatsby develop`

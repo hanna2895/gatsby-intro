@@ -3,6 +3,7 @@ module.exports = {
         title: `Hannah Werman`,
         description: `Front End Developer | Blockchain Enthusiast | Nomad`,
     },
+    pathPrefix: `/gatsby-portfolio`,
     plugins: [
         {
             resolve: `gatsby-plugin-manifest`,

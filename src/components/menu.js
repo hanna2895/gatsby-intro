@@ -4,7 +4,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import MenuIcon from '@material-ui/icons/Menu';
 import ListItemText from '@material-ui/core/ListItemText';
-import { withStyles } from '@material-ui/core/Styles';
+import { withStyles } from '@material-ui/core/styles';
 import { Link } from 'gatsby';
 import { css } from 'react-emotion';
 

@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import Layout from "../components/layout"
 import './about/about.css';
-import hannaPhoto from '../../public/images/Hanna1.jpg';
+import hannaPhoto from './about/Hanna1.jpg';
 
 
 export default ({ data }) => (

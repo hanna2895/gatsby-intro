@@ -14,7 +14,6 @@ module.exports = {
                 background_color: '#6b37bf',
                 theme_color: "#6b37bf",
                 display: 'minimal-ui',
-                // icon: 'src/images/icon.png',
             }
         },
         `gatsby-plugin-offline`,
@@ -34,11 +33,5 @@ module.exports = {
                 pathToConfigModule: `src/utils/typography.js`,
             },
         },
-        // {
-        //   resolve: 'gatsby-plugin-material-ui',
-        //   options: {
-        //     pathToTheme: 'src/themes/default',
-        //   },
-        // },
     ],
 }

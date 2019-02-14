@@ -11,7 +11,8 @@ import { css } from 'react-emotion';
 const styles = {
     drawer: {
         backgroundColor: 'transparent',
-        padding: '5vh'
+        padding: '5vh',
+        fontFamily: 'inherit',
     }
 }
 
@@ -34,13 +35,14 @@ class SwipeableTemporaryDrawer extends React.Component {
             <div>
                 <List className={css`
                     width: 20vw;
+                    font-family: inherit;
                     @media (max-width: 415px) {
-                        width: 32vw;
+                        width: 34vw;
                     }
                 `}>
-                    <Link to={`/about/`} style={{ textDecoration: 'none', marginRight: '0'}}>
-                        <ListItem button key={'about'}>
-                            <ListItemText primary={"About"} />
+                    <Link to={`/about/`} style={{ textDecoration: 'none', marginRight: '0', fontFamily: 'inherit'}}>
+                        <ListItem button key={'about'} style={{ fontFamily: 'inherit' }}>
+                            <ListItemText primary={"About"} style={{ fontFamily: 'inherit' }}/>
                         </ListItem>
                     </Link>
                     <Link to={`/blog/`} style={{ textDecoration: 'none', marginRight: '0'}}>

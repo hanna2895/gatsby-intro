@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import { css } from "react-emotion"
+import Button from '@material-ui/core/Button';
 
 
 import './style.css';
@@ -68,18 +69,17 @@ export default () => (
             <div class="links">
 
                 <h4 id="action">See my work in action:</h4>
-                <ul class="link-list">
-                <li><a href="./content/hannah_werman_august_2018_resume.pdf" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Tech Resume</a></li>
-                <li><a href="./content/hannah_werman_august_2018_writing_resume.pdf" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Writing Resume</a></li>
-                <li><a href="https://www.linkedin.com/in/hannah-werman/" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-                <li><a href="https://github.com/hanna2895" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                <li><a href="https://www.bububabkpacks.com" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Blog</a></li>
-                <li><a href="https://www.instagram.com/bubu_backpacks/" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                <li><a href="https://twitter.com/bubu_backpacks" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-                <li><a href="https://www.pinterest.com/bubu_backpacks/boards/" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
+                <div class="link-list">
+                <a href="./content/hannah_werman_august_2018_resume.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Tech Resume</Button></a>
+                <a href="./content/hannah_werman_august_2018_writing_resume.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Writing Resume</Button></a>
+                <a href="https://www.linkedin.com/in/hannah-werman/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>LinkedIn</Button></a>
+                <a href="https://github.com/hanna2895" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>GitHub</Button></a>
+                <a href="https://www.instagram.com/bubu_backpacks/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Instagram</Button></a>
+                <a href="https://twitter.com/bubu_backpacks" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Twitter</Button></a>
+                <a href="https://www.pinterest.com/bubu_backpacks/boards/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Pinterest</Button></a>
 
 
-                </ul>
+                </div>
             </div>
 
             </div>

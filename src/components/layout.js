@@ -50,7 +50,7 @@ export default ({ children }) => (
           <h1 className={css`
             font-size: 2rem;
             @media (max-width: 415px) {
-              font-size: 1.5rem;
+              font-size: 1.4rem;
               width: 80%;
               margin-top: 1vh;
             }
@@ -63,7 +63,6 @@ export default ({ children }) => (
               display: inline-block;
               font-style: normal;
               font-size: 1rem;
-              margin-top: 1rem;
               @media (max-width: 415px) {
                 font-size: 11px;
               }

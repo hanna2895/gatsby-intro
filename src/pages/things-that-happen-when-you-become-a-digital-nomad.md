@@ -115,8 +115,11 @@ I wasn’t prepared for how physically exhausting and emotionally draining life 
 One year later, knowing what I know now about the realities of digital nomad life, I would still do it again in a heartbeat, and I have no plans to stop any time soon.
 
 
+
 ----
 
 _If you made it this far, thanks so much for reading! If you want to hear more about my first six months of nomadic life, check out my [2018 Recap](/2018-recap)or my first post on [why I decided to become a digital nomad](/hanna-becomes-a-digital-nomad)_
 
 _I built this site myself and don't have commenting set up yet, but if there's anything else about web development or nomadic life, feel free to drop me a line on Instagram at_ [@bubu_backpacks](https://instagram.com/bubu_backpacks) 
+
+![pinterest-graphic](/6-things/6-things-pinterest.png)

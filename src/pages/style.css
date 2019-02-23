@@ -174,7 +174,7 @@ ul, li {
 
 .skills-holder {
 	display: flex;
-	height: 45vh;
+	height: auto;
 }
 
 @media (max-width: 800px) {
@@ -221,6 +221,11 @@ ul, li {
 .dev-skills > ul, .blog-skills > ul {
 	display: flex;
 	flex-wrap: wrap;
+	margin-left: 0;
+}
+
+.skill-list {
+	margin-left: 0;
 }
 
 .skill-list > li {

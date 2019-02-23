@@ -70,8 +70,7 @@ export default () => (
 
                 <h4 id="action">See my work in action:</h4>
                 <div class="link-list">
-                <a href="./content/hannah_werman_august_2018_resume.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Tech Resume</Button></a>
-                <a href="./content/hannah_werman_august_2018_writing_resume.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Writing Resume</Button></a>
+                <a href="/content/hannah_werman_february_2019_resume.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Resume</Button></a>
                 <a href="https://www.linkedin.com/in/hannah-werman/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>LinkedIn</Button></a>
                 <a href="https://github.com/hanna2895" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>GitHub</Button></a>
                 <a href="https://www.instagram.com/bubu_backpacks/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Instagram</Button></a>

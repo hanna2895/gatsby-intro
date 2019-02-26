@@ -3,6 +3,8 @@ title: "Hanna Becomes A Digital Nomad"
 date: "2018-06-07"
 ---
 
+_June 7, 2018_
+
 Hello, world!
 
 I know I’ve been MIA for the last few months, and it’s been a whirlwind. Three months ago, I sold 95 percent of my belongings, downsized my life to fit in a 45L backpack, and moved from Washington DC back home to Chicago to focus and prepare for my next great adventure. I’ve spent every waking moment working towards this path I set out on ten months ago, and now I can’t wait to share that with you.

@@ -5,6 +5,8 @@ date: "2018-07-19"
 
 ![passport-privilege](https://images.unsplash.com/photo-1515476084989-0c8f073ea169?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=544b788843cc31f0f4152f2d3d8fbcbd&auto=format&fit=crop&w=1031&q=80)
 
+_July 19, 2018_
+
 I’m about to get controversial here and write about travel and privilege.
 
 I’m a strong believer in the fact that travel is about so much more than just ticking countries and sights off a list. There’s a tremendous amount of privilege that goes in to being able to country-hop, ticking wonders of world off your bucket list and listing 86/195 in your Instagram bio. A lot of my travel happens because I impulsively buy plane tickets when I get bored and frustrated with not making progress with my life, but for the majority of the world’s citizens, international travel isn’t something you can just do on a whim.

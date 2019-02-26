@@ -5,6 +5,8 @@ date: "2018-06-21"
 
 ![blockchain](https://bububackpacks.files.wordpress.com/2018/06/blockchain.jpg?w=700)
 
+_June 21, 2018_
+
 For those of you who have been regularly reading my blog, this is a bit of a departure from my usual topics, but it’s one that I think will play an important role, not only in the future of travel but in the future of global governance.
 
 As technology continues to advance, the world economy has and will continue to become more interconnected. Thanks to today’s technology, thousands of people are choosing to take their jobs with them on the road to travel the world. Since physical, geographical location no longer matters for a growing number of industries, it is inevitable that we will begin to see a shift in how the world is governed.

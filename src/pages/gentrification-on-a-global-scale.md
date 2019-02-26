@@ -5,6 +5,8 @@ date: "2018-06-14"
 
 ![gentrification](https://bububackpacks.files.wordpress.com/2018/06/screen-shot-2018-06-04-at-1-02-11-pm.png)
 
+_June 14, 2018_
+
 The idea of being to live and work from anywhere in the world is attractive to many, who have chosen to become digital nomads and wander the world as laptop warriors. It seems like the perfect lifestyle – no rent, no commute time, the freedom to work from the beach every day, yet it does not come without some major drawbacks.
 
 Digital nomads have the career flexibility, money, and passport power to move anywhere in the world because they choose to, whereas the majority of the world’s population does not have that option. They flock to places with lower costs of living compared to their home countries, driving up local prices despite not having a meaningful impact on the local communities, and then leave for the next destination, and the next.

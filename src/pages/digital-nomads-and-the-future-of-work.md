@@ -5,6 +5,8 @@ date: "2018-07-05"
 
 ![digital-nomads](https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1d38bbdda690e28a81673c06325075&auto=format&fit=crop&w=1489&q=80)
 
+_July 5, 2018_
+
 I’ve said this before and I’m sure I’ll say it again, but the 9-to-5 is dead. Given today’s technologies, the 9-to-5 static office model has become obsolete for many industries. For example, many tech companies already have teams of software developers around the world, so it’s just a matter of restructuring your company to keep up with modern, connected workforce and geoarbitrage.
 
 Unless your industry involves physically interacting with your customers, there’s no need to have fixed hours in a fixed location. The benefits of having a distributed team are innumerable, including some of the big ones, like:

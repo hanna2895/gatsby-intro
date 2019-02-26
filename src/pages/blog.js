@@ -11,32 +11,37 @@ export default ({ data }) => {
       <div>
 
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <Link
-                to={node.fields.slug}
-                className={css`
-                    text-decoration: none;
-                    color: inherit;
-                `}>
-                <h3
-                    className={css`
-                        margin-bottom: ${rhythm(1 / 4)};
-                `}
-                >
-                {node.frontmatter.title}{" "}
-                <span
-                    className={css`
-                    color: #bbb;
-                    `}
-                >
-                    — {node.frontmatter.date}
-                </span>
-                </h3>
-                <p>{node.excerpt}</p>
-            </Link>
-          </div>
-        ))}
+        {data.allMarkdownRemark.edges.map(({ node }) => {
+          const excerpt = node.excerpt
+          const cutDate = node.excerpt.split(' ').slice(3).join(' ')
+          console.log(cutDate)
+          return (
+            <div key={node.id}>
+              <Link
+                  to={node.fields.slug}
+                  className={css`
+                      text-decoration: none;
+                      color: inherit;
+                  `}>
+                  <h3
+                      className={css`
+                          margin-bottom: ${rhythm(1 / 4)};
+                  `}
+                  >
+                  {node.frontmatter.title}{" "}
+                  <span
+                      className={css`
+                      color: #bbb;
+                      `}
+                  >
+                      — {node.frontmatter.date}
+                  </span>
+                  </h3>
+                  <p>{cutDate}</p>
+              </Link>
+            </div>
+          )
+        })}
       </div>
     </Layout>
   )

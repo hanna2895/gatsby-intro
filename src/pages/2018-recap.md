@@ -5,6 +5,8 @@ date: "2018-12-30"
 
 ![Barcelona](/images/recap-photos/cover-photo.jpg)
 
+_December 30, 2018_
+
 For those of you who have been following along, you may know that I made some pretty major changes to my life this year, and I can honestly say it’s been one of the greatest years of my life. It’s mind-blowing to think that this time last year, I was sitting in my windowless office planning travel and helping other people run their business, and now I’m not only running one of my own, but I’m planning to continue expanding and rebranding well into 2019 and beyond.
 
 This year, I

@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 import './style.css';
 
 // image paths
-const hostelSocial = '/images/portfolio-photos/hostel-social.png'
+const politIQ1 = '/images/portfolio-photos/politIQ.png'
 
 const urbanArray1 = '/images/portfolio-photos/urban-array-1.png';
 const urbanArray2 = '/images/portfolio-photos/urban-array-2.png';
@@ -32,15 +32,15 @@ export default () => (
         <div className="featured">
 
           <div className="info">
-            <h3>Hostel Social (In Progress)</h3>
+            <h3>PolitIQ (Client Project)</h3>
             <div className="image-holder">
-            <img src={hostelSocial} alt="Hostel Social app"/>
+            <img src={politIQ1} alt="Hostel Social app"/>
             </div>
 
-            <p>Hostel Social is a Progressive Web App (PWA) to streamline and improve the hostel experience. Once completed, the app will allow hostel guests to see who they're sharing a room with, view hostel events, and organize outings with other guests. Eventually, the app will include additional personal safety features geared towards solo female travelers.</p>
-            <p>I'm currently conducting user and market research to create the best product and user experience. (Survey coming soon)</p>
-            <p>This app is built with React, MaterialUI, and Firebase.</p>
-            <a href="https://github.com/hanna2895/hostel-social">GitHub</a>
+            <p>PolitIQ is a current events triva game to help prove once and for all, which political party pays the most attention to the news. Think you've got what it takes? Players take daily quizzes and compete for weekly and monthly cash prizes.</p>
+            <p>I've been working on this project since October 2018, from its intial WordPress-based concept phase to the full Progressive Web App that it is today.</p>
+            <p>This app is built with React, MaterialUI, and Firebase, and is integrated with Mailchimp, Zapier, and PushWoosh APIs to provide email and push notifications and boost user engagement.</p>
+            <a href="whatsmypolitiq.com">Play Now!</a>
           </div>
 
         </div>

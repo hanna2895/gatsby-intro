@@ -70,11 +70,11 @@ export default () => (
 
                 <h4 id="action">See my work in action:</h4>
                 <div class="link-list">
-                <a href="/content/hannah_werman_february_2019_resume.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Resume</Button></a>
+                <a href="/content/HannahWermanJuly2019.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Resume</Button></a>
                 <a href="https://www.linkedin.com/in/hannah-werman/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>LinkedIn</Button></a>
                 <a href="https://github.com/hanna2895" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>GitHub</Button></a>
                 <a href="https://www.instagram.com/bubu_backpacks/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Instagram</Button></a>
-                <a href="https://twitter.com/bubu_backpacks" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Twitter</Button></a>
+                <a href="https://twitter.com/hanna_codes" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Twitter</Button></a>
                 <a href="https://www.pinterest.com/bubu_backpacks/boards/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Pinterest</Button></a>
 
 

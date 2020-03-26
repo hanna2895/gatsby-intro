@@ -2,23 +2,12 @@ import React from "react";
 import { css } from "react-emotion";
 import { StaticQuery, Link, graphql } from "gatsby";
 import { Helmet } from 'react-helmet';
-import { createGlobalStyle } from 'styled-components';
 
 import { rhythm } from "../utils/typography";
 import SwipeableTemporaryDrawer from './menu';
 
-// import '../fonts/fonts.css';
-
-// const GlobalStyles = createGlobalStyle`
-//   body {
-//     font-family: "GlacialIndifference", serif;
-//     /* font: 400 18px Rubik, sans-serif; */
-//   }
-// `
-
 export default ({ children }) => (
   <div>
-    {/* <GlobalStyles /> */}
 
   <StaticQuery
     query={graphql`
@@ -102,13 +91,7 @@ export default ({ children }) => (
   `}>
           Built with &hearts; using React, Gatsby & GraphQL.
   </footer>
-
-  {/* <script id="mcjs" dangerouslySetInnerHTML={{
-    __html: `
-    !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3d80c9e4ae1319f49d5837bab/b4fbbff1016028e6513ffff4b.js")
-    `,
-  }}
-  /> */}
+  
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135263841-1"></script>
   <script dangerouslySetInnerHTML={{
     __html: `

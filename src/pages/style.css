@@ -104,7 +104,6 @@ h4 {
 @media (max-width: 800px) {
 	.featured, .project {
 		flex-direction: column;
-		/* height: auto; */
 	}
 	nav > a {
 		font-size: 12px;
@@ -114,7 +113,6 @@ h4 {
 		height: 8vh;
 	}
 	.button-holder > div {
-		/* font-size: 24px; */
 		width: 60vw;
 		margin-left: auto;
 		margin-right: auto;
@@ -165,7 +163,6 @@ h4 {
 
 hr {
     border: none;
-    /* border-top: 3px double #333; */
     color: #333;
     overflow: visible;
     text-align: center;
@@ -218,7 +215,6 @@ ul, li {
 	}
 	.links {
 		text-align: left !important;
-		/* margin-top: 5vh; */
 		margin-bottom: 3vh;
 	}
 	.links > ul {
@@ -238,7 +234,6 @@ ul, li {
 .dev-skills {
 	height: auto;
 	width: 55%;
-	/* display: flex; */
 }
 
 .blog-skills {
@@ -268,11 +263,6 @@ ul, li {
 	margin-bottom: 1vh;
 }
 
-/* .links > div {
-	display: flex;
-	justify-content: space-around;
-	padding-top: 3vh;
-} */
 
 
 @media (max-width: 800px) {

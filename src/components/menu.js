@@ -45,11 +45,6 @@ class SwipeableTemporaryDrawer extends React.Component {
                             <ListItemText primary={"About"} style={{ fontFamily: 'inherit' }}/>
                         </ListItem>
                     </Link>
-                    <Link to={`/blog/`} style={{ textDecoration: 'none', marginRight: '0'}}>
-                        <ListItem button key={'blog'}>
-                            <ListItemText primary={"Blog"}/>
-                        </ListItem>
-                    </Link>
                     <Link to={`/portfolio/`} style={{ textDecoration: 'none', marginRight: '0'}}>
                         <ListItem button key={"portfolio"}>
                             <ListItemText primary={"Portfolio"}/>
@@ -58,11 +53,6 @@ class SwipeableTemporaryDrawer extends React.Component {
                     <Link to={`/skills/`} style={{ textDecoration: 'none', marginRight: '0'}}>
                         <ListItem button key={'skills'}>
                             <ListItemText primary={"Skills"}/>
-                        </ListItem>
-                    </Link>
-                    <Link to={`/contact/`} style={{ textDecoration: 'none', marginRight: '0'}}>
-                        <ListItem button key={"hire"}>
-                            <ListItemText primary={"Hire"}/>
                         </ListItem>
                     </Link>
                 </List>

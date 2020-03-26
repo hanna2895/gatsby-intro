@@ -1,14 +1,24 @@
-import React from "react"
-import { css } from "react-emotion"
-import { StaticQuery, Link, graphql } from "gatsby"
-import { Helmet } from 'react-helmet'
+import React from "react";
+import { css } from "react-emotion";
+import { StaticQuery, Link, graphql } from "gatsby";
+import { Helmet } from 'react-helmet';
+import { createGlobalStyle } from 'styled-components';
 
-import { rhythm } from "../utils/typography"
+import { rhythm } from "../utils/typography";
 import SwipeableTemporaryDrawer from './menu';
+
+// import '../fonts/fonts.css';
+
+// const GlobalStyles = createGlobalStyle`
+//   body {
+//     font-family: "GlacialIndifference", serif;
+//     /* font: 400 18px Rubik, sans-serif; */
+//   }
+// `
 
 export default ({ children }) => (
   <div>
-
+    {/* <GlobalStyles /> */}
 
   <StaticQuery
     query={graphql`
@@ -29,6 +39,9 @@ export default ({ children }) => (
           max-width: 850px;
           padding: ${rhythm(2)};
           padding-top: ${rhythm(1.5)};
+          @media (max-width: 415px) {
+            padding: ${rhythm(1)};
+          }
         `}
       >
         <Helmet>
@@ -48,9 +61,11 @@ export default ({ children }) => (
           margin-right: 0;
         `}>
           <h1 className={css`
-            font-size: 2rem;
+            font-size: 2.5rem;
+            letter-spacing: 1.5px;
+            margin-bottom: 0.5rem;
             @media (max-width: 415px) {
-              font-size: 1.4rem;
+              font-size: 1.3rem;
               width: 80%;
               margin-top: 1vh;
             }
@@ -71,14 +86,6 @@ export default ({ children }) => (
             {data.site.siteMetadata.description}
           </h4>
         </Link>
-        {/* <div className={css`
-          float: right;
-          max-width: 35%;
-        `}>
-          <SwipeableTemporaryDrawer/>
-
-        </div> */}
-
         {children}
       </div>
 
@@ -96,12 +103,12 @@ export default ({ children }) => (
           Built with &hearts; using React, Gatsby & GraphQL.
   </footer>
 
-  <script id="mcjs" dangerouslySetInnerHTML={{
+  {/* <script id="mcjs" dangerouslySetInnerHTML={{
     __html: `
     !function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3d80c9e4ae1319f49d5837bab/b4fbbff1016028e6513ffff4b.js")
     `,
   }}
-  />
+  /> */}
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135263841-1"></script>
   <script dangerouslySetInnerHTML={{
     __html: `

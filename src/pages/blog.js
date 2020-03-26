@@ -5,16 +5,13 @@ import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
-  console.log(data)
   return (
     <Layout>
       <div>
 
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => {
-          const excerpt = node.excerpt
           const cutDate = node.excerpt.split(' ').slice(3).join(' ')
-          console.log(cutDate)
           return (
             <div key={node.id}>
               <Link

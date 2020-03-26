@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: `Hannah Werman`,
-        description: `Front End Developer | Blockchain Enthusiast | Nomad`,
+        description: `Front End Engineer | Progressive Tech Evangelist | Nomad`,
     },
     pathPrefix: "/gatsby-portfolio",
     plugins: [
@@ -27,6 +27,22 @@ module.exports = {
         },
         `gatsby-transformer-remark`,
         `gatsby-plugin-emotion`,
+        // {
+        //     resolve: "gatsby-plugin-web-font-loader",
+        //     options: {
+        //         custom: {
+        //             families: ["GlacialIndifference, LeagueGothic"],
+        //             urls: ["src/fonts/fonts.css"],
+        //         },
+        //     },
+        // },
+        // {
+        //     resolve: "gatsby-source-filesystem",
+        //     options: {
+        //       name: "fonts",
+        //       path: `src/fonts/`
+        //     }
+        // },
         {
             resolve: `gatsby-plugin-typography`,
             options: {

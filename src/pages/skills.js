@@ -14,27 +14,43 @@ export default () => (
                 <div class="dev-skills">
                 <h4>Web Development</h4>
                     <ul class="skill-list">
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>Bootstrap</li>
-                    <li>Less / Sass</li>
-                    <li>Node.js</li>
-                    <li>Express</li>
                     <li>React</li>
                     <li>Redux</li>
+
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+
+                    <li>Node.js</li>
+                    <li>Express</li>
+
+                    <li>Python</li>
+                    <li>Django / Wagtail</li>
+
+                    <li>MongoDB</li>
+                    <li>Mongoose</li>
+
+                    <li>Bootstrap</li>
+                    <li>Less / Sass</li>
+
+                    <li>PostgreSQL</li>
+                    <li>MySQL</li>
+                    <li>GraphQL</li>
+
                     <li>Ruby</li>
                     <li>Ruby on Rails</li>
                     <li>Sinatra</li>
-                    <li>Rack</li>
+
                     <li>Git</li>
                     <li>GitHub</li>
                     <li>Heroku</li>
-                    <li>MongoDB</li>
-                    <li>PostgreSQL</li>
-                    <li>GraphQL</li>
+
+                    <li>NGPVAN</li>
+
                     <li>Firebase</li>
+                    <li>Amazon Web Services</li>
                     </ul>
                 </div>
 
@@ -42,41 +58,41 @@ export default () => (
 
                 <h4>Blog, Social Media Management, and Graphic Design</h4>
                     <ul class="skill-list">
+                    <li>Content Writing</li>
                     <li>WordPress</li>
+                    <li>Squarespace</li>
                     <li>Adobe Photoshop</li>
                     <li>Adobe Lightroom</li>
                     <li>Canva</li>
                     <li>Later</li>
                     <li>Crowdfire</li>
-                    <li>Facebook and Twitter Advertising</li>
+                    <li>Twitter Advertising</li>
                     <li>Mailchimp</li>
                     </ul>
 
-                    <h4 id="agile">Agile Management</h4>
+                    <h4 id="agile">Agile Management & Remote Work</h4>
                     <ul class="skill-list" className={css`
                         flex-wrap: nowrap;
                         justify-content: space-between;
                     `}>
                         <li>Slack</li>
                         <li>Trello</li>
-                        <li className={css`
-                            margin-right: 10vw;
-                        `}>Jira</li>
+                        <li>Jira</li>
+                        <li>Zoom</li>
+                        <li>Google Hangouts</li>
                     </ul>
                 </div>
             </div>
 
             <div class="links">
 
-                <h4 id="action">See my work in action:</h4>
+                <h4 id="action">See more:</h4>
                 <div class="link-list">
-                <a href="/content/HannahWermanJuly2019.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Resume</Button></a>
-                <a href="https://www.linkedin.com/in/hannah-werman/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>LinkedIn</Button></a>
-                <a href="https://github.com/hanna2895" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>GitHub</Button></a>
-                <a href="https://www.instagram.com/bubu_backpacks/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Instagram</Button></a>
-                <a href="https://twitter.com/hanna_codes" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Twitter</Button></a>
-                <a href="https://www.pinterest.com/bubu_backpacks/boards/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}><Button variant="outlined" size="small" style={{ marginBottom: '1vh' }}>Pinterest</Button></a>
-
+                    <a href="/content/HannahWermanMarch2020Resume.pdf" target="_blank" rel="noopener noreferrer" className="skill-link">Resume</a>
+                    <a href="https://www.linkedin.com/in/hannah-werman/" target="_blank" rel="noopener noreferrer" className="skill-link">LinkedIn</a>
+                    <a href="https://github.com/hanna2895" target="_blank" rel="noopener noreferrer" className="skill-link">GitHub</a>
+                    <a href="https://www.instagram.com/hanna_codes/" target="_blank" rel="noopener noreferrer" className="skill-link">Instagram</a>
+                    <a href="https://twitter.com/hanna_codes" target="_blank" rel="noopener noreferrer" className="skill-link">Twitter</a>
 
                 </div>
             </div>

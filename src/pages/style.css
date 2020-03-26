@@ -27,7 +27,7 @@ a {
 }
 /* -------------------------about page css -------------------------- */
 
-.landing-link, .portfolio-link {
+.landing-link, .portfolio-link, .skill-link {
 	padding: 0.5rem;
 	background-color: #475A7E;
 	color: #FBEAdd;
@@ -37,7 +37,7 @@ a {
 	text-align: center;
 	box-shadow: 1px 1px 3px #475A7E;
 }
-.landing-link:hover, .portfolio-link:hover {
+.landing-link:hover, .portfolio-link:hover, .skill-link:hover {
 	background-color: #7F8BA1;
 }
 
@@ -237,6 +237,12 @@ ul, li {
 	margin-top: 3vh;
 }
 
+@media (max-width: 415px) {
+	.container2 > h1 {
+		margin-top: 0;
+	}
+}
+
 .skills-holder {
 	display: flex;
 	height: auto;
@@ -269,7 +275,11 @@ ul, li {
 }
 
 #agile, #action {
-	margin-top: 2vh;
+	margin-top: 3vh;
+}
+
+.skills-holder h4 {
+	margin-bottom: 1rem;
 }
 
 .dev-skills {
@@ -300,9 +310,13 @@ ul, li {
 	margin-top: 5vh;
 }
 
-.link-list > button {
-	margin-bottom: 1vh;
+.link-list .skill-link {
+	margin-bottom: 1rem;
 }
+
+/* .link-list > button {
+	margin-bottom: 1vh;
+} */
 
 
 

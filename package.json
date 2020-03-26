@@ -6,8 +6,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "gatsby build && gh-pages -d public -b master",
-    "deploy:github": "npm run build && node ./scripts/deploy-github"
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
     "@babel/runtime": "^7.3.1",

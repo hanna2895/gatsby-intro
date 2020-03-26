@@ -38,7 +38,7 @@ class SwipeableTemporaryDrawer extends React.Component {
                     width: 20vw;
                     font-family: inherit;
                     @media (max-width: 415px) {
-                        width: 34vw;
+                        width: 40vw;
                     }
                 `}>
                     <Link to={`/about/`} style={{ textDecoration: 'none', marginRight: '0', fontFamily: 'inherit'}}>

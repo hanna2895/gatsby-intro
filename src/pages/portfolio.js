@@ -40,6 +40,7 @@ const battle2 = '/images/portfolio-photos/Battle2.png';
 
 export default () => (
     <Layout>
+        <h1>The Highlights:</h1>
         <div className="featured">
           <h3>Edge - Relational Organizing Tool</h3>
 
@@ -124,7 +125,7 @@ export default () => (
                   <p>PolitIQ is a current events triva game to help prove once and for all, which political party pays the most attention to the news. Think you've got what it takes? Players take daily quizzes and compete for weekly and monthly cash prizes.</p>
                   <p>I was the primary engineer on this product team from the intial WordPress-based game concept phase to creating the full Progressive Web App that it is today.</p>
                   <p>This app is built with React, MaterialUI, and Firebase, and is integrated with Mailchimp, Zapier, and PushWoosh APIs to provide email and push notifications and boost user engagement.</p>
-                  <a href="whatsmypolitiq.com">Play Now!</a>
+                  <a href="whatsmypolitiq.com" className="portfolio-link">Play Now!</a>
                 </div>
               </div>
             </div>
@@ -142,8 +143,8 @@ export default () => (
                   <p>I worked as the lead front-end developer and open source project manager for Urban Array, a blockchain-based non-profit/social enterprise startup with the goal of empowering underserviced communities.</p>
                   <p>This app was built alongside a team of developers using React, Redux, Node.js, MongoDB, and Amazon Web Services.</p>
                   <p>It is intended to be a project management platform for community development projects such as urban farming and building restoration. The goal is to get a working system that can later be tokenized, as the goal is to reward volunteer efforts with a crypto token that can be redeemed at local businesses for goods and services.</p>
-                  <a href="https://github.com/urbanarray/UA-Frontend" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">Front End</a>
-                  <a href="https://github.com/urbanarray/UA-Backend" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">Back End</a>
+                  <a href="https://github.com/urbanarray/UA-Frontend" target="_blank" rel="noopener noreferrer" className="portfolio-link">Front End</a>
+                  <a href="https://github.com/urbanarray/UA-Backend" target="_blank" rel="noopener noreferrer" className="portfolio-link">Back End</a>
                 </div>
               </div>
             </div>
@@ -160,7 +161,7 @@ export default () => (
                   <p>RecommendMe is a social restaurant recommendation app that allows you to discover new restaurants in your area based on what your friends recommended, and follow people with similar tastes.</p>
                   <p>I redesigned the Home, Search, and Feed pages to reflect updates in the RecommendMe iOS app and optimize for the mobile user to increase downloads and signups.</p>
                   <p>This app is built with React and deployed using Heroku and Amazon Web Services.</p>
-                  <a href="http://www.myrecommendme.com" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">Check It Out</a>
+                  <a href="http://www.myrecommendme.com" target="_blank" rel="noopener noreferrer" className="portfolio-link">Check It Out</a>
                 </div>
               </div>
 
@@ -182,9 +183,9 @@ export default () => (
                   <p>This app was built using React, Redux, Ruby, Rails, PostgreSQL, and Material UI in two, two-week sprints.</p>
                   <p>Updates will include the ability to batch upload documents and users to streamline the workflow on the administrator's side. Additional analytics and administrator-side dashboard features are forthcoming.</p>
                   <p>You can log in and check out the admin functionality using the email address hannah@hannah.com and password 12345.</p>
-                  <a href="https://abc-training-1.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">Check It Out</a>
-                  <a href="https://github.com/hanna2895/ABC-Training" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">Front End</a>
-                  <a href="https://github.com/hanna2895/ABC-Training-back-end" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">Back End</a>
+                  <a href="https://abc-training-1.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="portfolio-link">Check It Out</a>
+                  <a href="https://github.com/hanna2895/ABC-Training" target="_blank" rel="noopener noreferrer" className="portfolio-link">Front End</a>
+                  <a href="https://github.com/hanna2895/ABC-Training-back-end" target="_blank" rel="noopener noreferrer" className="portfolio-link">Back End</a>
                 </div>
               </div>
             </div>
@@ -202,9 +203,9 @@ export default () => (
                   <p>Shoestring is a travel budget planning app targeted towards broke millennials. Enter your destination, your dates, your budget, and how much you already have saved to put towards the trip, and the app will track your progress towards your wanderlust goals.</p>
                   <p>This app was built using React, Ruby, Sinatra, PostgreSQL, and ReactStrap in a one-week small-group programming sprint. It pulls in data from the Amadeus Travel Innovation Sandbox Flight Low-Fare Search and Hotel Airport Search APIs.</p>
                   <p>Updates will include a larger data set, minor bug-fixes, and additional flight booking capabilities. You can log in and check out the full app functionality using the username and password 12345.</p>
-                  <a href="https://shoestring1.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">Check It Out</a>
-                  <a href="https://github.com/hanna2895/shoestring-front-end" rel="noopener noreferrer" target="_blank" className="btn btn-outline-dark">Front End</a>
-                  <a href="https://github.com/zoesreagan/shoestring-sinatra-" rel="noopener noreferrer" target="_blank" className="btn btn-outline-dark">Back End</a>
+                  <a href="https://shoestring1.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="portfolio-link">Check It Out</a>
+                  <a href="https://github.com/hanna2895/shoestring-front-end" rel="noopener noreferrer" target="_blank" className="portfolio-link">Front End</a>
+                  <a href="https://github.com/zoesreagan/shoestring-sinatra-" rel="noopener noreferrer" target="_blank" className="portfolio-link">Back End</a>
                 </div>
               </div>
             </div>
@@ -221,8 +222,8 @@ export default () => (
                 <div className="description">
                   <p>Fly back and forth across the screen using the arrow keys and use the spacebar to shoot at alien ships to defend the earth from an incoming invasion. The levels get progressively more challenging as you advance, and the alien ships become more difficult to destroy.</p>
                   <p>This game was built using HTML5 Canvas, JavaScript, and jQuery in a one-week sprint.</p>
-                  <a href="https://hanna2895.github.io/BATTLE/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">Play Game</a>
-                  <a href="https://github.com/hanna2895/BATTLE" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark">GitHub</a>
+                  <a href="https://hanna2895.github.io/BATTLE/" target="_blank" rel="noopener noreferrer" className="portfolio-link">Play Game</a>
+                  <a href="https://github.com/hanna2895/BATTLE" target="_blank" rel="noopener noreferrer" className="portfolio-link">GitHub</a>
                 </div>
               </div>
             </div>
@@ -232,7 +233,7 @@ export default () => (
 
         <h3 style={{ marginTop: '10vh' }}>See something you like?</h3>
         <p>Let's talk about your business & tech needs.</p>
-        <a href="https://calendly.com/hannah_werman/30min/" target="_blank" rel="noopener noreferrer">Schedule a FREE consultation!</a>
+        <a href="https://calendly.com/hannah_werman/30min/" target="_blank" rel="noopener noreferrer" className="portfolio-link">Schedule a FREE consultation!</a>
             
     </Layout>
 )

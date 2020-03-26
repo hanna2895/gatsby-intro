@@ -10,10 +10,11 @@ import { css } from 'react-emotion';
 
 const styles = {
     drawer: {
-        backgroundColor: 'transparent',
+        backgroundColor: '#FBEADD',
         padding: '5vh',
-        fontFamily: 'inherit',
-    }
+        fontFamily: 'GlacialIndifference',
+        color: '#475A7E',
+    },
 }
 
 
@@ -68,10 +69,9 @@ class SwipeableTemporaryDrawer extends React.Component {
                     open={this.state.right}
                     onClose={this.toggleDrawer('right', false)}
                     onOpen={this.toggleDrawer('right', true)}
-                    BackdropProps={{ classes: {
+                    PaperProps={{ classes: {
                         root: classes.drawer
-                    }
-                    }}
+                    }}}
                     onBackdropClick={this.toggleDrawer('right', false)}
                 >
                         <div

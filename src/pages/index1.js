@@ -7,7 +7,6 @@ import Layout from "../components/layout"
 // put a react router redirect here so that the index automatically redirects to about
 
 export default ({ data }) => {
-  console.log(data)
   return (
     <Layout>
       <div>

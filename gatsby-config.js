@@ -11,8 +11,8 @@ module.exports = {
                 name: "GatsbyJS",
                 short_name: "GatsbyJS",
                 start_url: '/',
-                background_color: '#6b37bf',
-                theme_color: "#6b37bf",
+                background_color: '#475A7E',
+                theme_color: "#475A7E",
                 display: 'minimal-ui',
             }
         },
@@ -27,22 +27,6 @@ module.exports = {
         },
         `gatsby-transformer-remark`,
         `gatsby-plugin-emotion`,
-        // {
-        //     resolve: "gatsby-plugin-web-font-loader",
-        //     options: {
-        //         custom: {
-        //             families: ["GlacialIndifference, LeagueGothic"],
-        //             urls: ["src/fonts/fonts.css"],
-        //         },
-        //     },
-        // },
-        // {
-        //     resolve: "gatsby-source-filesystem",
-        //     options: {
-        //       name: "fonts",
-        //       path: `src/fonts/`
-        //     }
-        // },
         {
             resolve: `gatsby-plugin-typography`,
             options: {

@@ -58,6 +58,9 @@ export default ({ children }) => (
               width: 80%;
               margin-top: 1vh;
             }
+            &::hover {
+              background-color: black;
+            }
           `}>
             {data.site.siteMetadata.title}
           </h1>
@@ -91,7 +94,7 @@ export default ({ children }) => (
   `}>
           Built with &hearts; using React, Gatsby & GraphQL.
   </footer>
-  
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135263841-1"></script>
   <script dangerouslySetInnerHTML={{
     __html: `

@@ -24,8 +24,7 @@ export default ({ data }) => (
 
           <p className="animated fadeInUp delay-3s">I want to help YOU grow your business and automate your life. Let’s talk about how we can work together.</p>
 
-          <Link to={`/contact/`} className="btn btn-outline-dark animated fadeInUp delay-7s landing-link">Hire Me</Link>
-          <Link to={`/portfolio/`} className="btn btn-outline-dark animated fadeInUp delay-7s landing-link">View My Work </Link>
+          <Link to={`/portfolio/`} className="animated fadeInUp delay-5s landing-link">View My Work </Link>
 
         </div>
 

@@ -1,7 +1,51 @@
 /* ------------------ global css ------------------------------------ */
-a {
-	color: #000!important;
+/* #FCFCF7
+#FBEADD
+#475A7E
+#CFD0D3
+#7F8BA1 */
+
+body {
+	background-color: #FCFCF7;
+	color: #475A7e;
 }
+
+h1 {
+	text-decoration-color: #475A7E;
+}
+
+a {
+	color: #475A7e;
+	text-decoration-color: #475A7E;
+	transition: all 0.3s ease;
+}
+
+
+[class*="MuiTypography-subheading"] {
+	font-family: unset!important;
+	color: #475A7E!important;
+}
+/* -------------------------about page css -------------------------- */
+
+.landing-link, .portfolio-link {
+	padding: 0.5rem;
+	background-color: #475A7E;
+	color: #FBEAdd;
+	transition: all 0.3s ease;
+	border-radius: 3px;
+	text-decoration: none;
+	text-align: center;
+	box-shadow: 1px 1px 3px #475A7E;
+}
+.landing-link:hover, .portfolio-link:hover {
+	background-color: #7F8BA1;
+}
+
+.home-img {
+	box-shadow: 1px 1px 8px #475A7E;
+	filter: saturate(75%);
+}
+
 
 /* ------------------------- portfolio page css --------------------- */
 
@@ -51,7 +95,6 @@ a {
 	max-width: 32vw;
 	height: auto;
 	margin-top: 1vh;
-	/* margin-left: 0; */
 }
 
 .image-holder {
@@ -91,9 +134,7 @@ a {
 	display: none;
 }
 h4 {
-	color: gray;
 	font-size: 18px;
-	font-style: oblique;
 }
 @media screen and (max-width: 415px) {
 	.mobile-hidden {
@@ -163,7 +204,7 @@ h4 {
 
 hr {
     border: none;
-    color: #333;
+    background-color: #FBEADD;
     overflow: visible;
     text-align: center;
 	height: 3px;

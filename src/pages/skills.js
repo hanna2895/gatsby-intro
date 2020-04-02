@@ -88,10 +88,9 @@ export default () => (
 
                 <h4 id="action">See more:</h4>
                 <div class="link-list">
-                    <a href="/content/HannahWermanMarch2020Resume.pdf" target="_blank" rel="noopener noreferrer" className="skill-link">Resume</a>
+                    <a href="/content/HannahWermanApril2020Resume.pdf" target="_blank" rel="noopener noreferrer" className="skill-link">Resume</a>
                     <a href="https://www.linkedin.com/in/hannah-werman/" target="_blank" rel="noopener noreferrer" className="skill-link">LinkedIn</a>
                     <a href="https://github.com/hanna2895" target="_blank" rel="noopener noreferrer" className="skill-link">GitHub</a>
-                    <a href="https://www.instagram.com/hanna_codes/" target="_blank" rel="noopener noreferrer" className="skill-link">Instagram</a>
                     <a href="https://twitter.com/hanna_codes" target="_blank" rel="noopener noreferrer" className="skill-link">Twitter</a>
 
                 </div>
